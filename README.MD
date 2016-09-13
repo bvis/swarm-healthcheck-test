@@ -35,7 +35,7 @@ It works as expected!
 But when you launch it as a service:
 
 ```
-docker service create --name test swarm-healthcheck
+docker service create --name test swarm-healthcheck-test
 cjqegebcn1g44qtvjrs8ujiq5
 watch -n 1 "docker service ps test"
 ID                         NAME    IMAGE              NODE             DESIRED STATE  CURRENT STATE             ERROR
